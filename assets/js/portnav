@@ -1,1 +1,32 @@
-document.writeln('<div class="container"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="https://kamrenmscott.github.io/portfolio/"><img src="assets/img/logo.png"></a></div><div class="navbar-collapse collapse"><ul class="nav navbar-nav navbar-right"><li><a href="https://kamrenmscott.github.io/portfolio/">Home</a></li><li><a href="resume">Resume</a></li><li><a href="portfolio-1">Portfolio</a></li><li><a href="contact">Contact</a></li></ul></div>')
+document.writeln('<section id="portfolio">
+        <div class="container w"  style="padding-bottom:15px;">
+            <div class="row">
+                <div class="porthover" style="background-color:#4c98b8;padding:20px;margin-bottom:5px; color:#fff;display: inline-block;">
+                    <a href="portfolio-1" style="font-weight:bold;color:#fff;">Space Center Houston</a> <br/> 
+                </div>
+                <div style="background-color:#2d2d2d;padding:20px;color:#fff;display: inline-block;margin-bottom:5px;">
+                    <a href="collegesmarts" style="font-weight:bold;color:#fff;">CollegeSmarts</a> <br/> 
+                </div>
+                <div style="background-color:#2d2d2d;padding:20px;color:#fff;display: inline-block;margin-bottom:5px;">
+                    <a href="studypods" style="font-weight:bold;color:#fff;">StudyPods</a> <br/> 
+                </div>
+                <div style="background-color:#2d2d2d;padding:20px;color:#fff;display: inline-block;margin-bottom:5px;">
+                    <a href="pweb" style="font-weight:bold;color:#fff;">PersonalWeb</a> <br/> 
+                </div>
+                <div style="background-color:#2d2d2d;padding:20px;color:#fff;display: inline-block;margin-bottom:5px;">
+                    <a href="tyler4tech" style="font-weight:bold;color:#fff;">Tyler4Tech</a> <br/>
+                </div>
+                <div style="background-color:#2d2d2d;padding:20px;color:#fff;display: inline-block;margin-bottom:5px;">
+                    <a href="getit" style="font-weight:bold;color:#fff;">GetIT</a> <br/> 
+                </div>
+                <div style="background-color:#2d2d2d;padding:20px;color:#fff;display: inline-block;margin-bottom:5px;">
+                    <a href="rft" style="font-weight:bold;color:#fff;">Raving Fan Technologies</a> <br/> 
+                </div>
+            </div>
+        </div>
+    </section>')
+
+
+
+
+
