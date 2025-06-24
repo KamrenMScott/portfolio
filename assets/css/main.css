@@ -506,7 +506,7 @@ textarea#message{
 	margin-right:1px; 
 	margin-left:1px; 
 	color:#fff;
-	display: inline-block;"
+	display: inline-block;
 }
 
 .portnav:hover {
@@ -516,7 +516,9 @@ textarea#message{
 .portfolio-1 .portnav {
   background-color: #DDCA4D;
 }
-
+.studypods .portnav {
+  background-color: #DDCA4D;
+}
 
 /* ==========================================================================
    Pricing Tables
