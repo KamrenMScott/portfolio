@@ -511,16 +511,11 @@ textarea#message{
 
 .portnav:hover {
 	background-color:#4c98b8;
-	padding:20px;
-	margin-bottom:5px; 
-	border-radius:15px;
-	margin-right:1px; 
-	margin-left:1px; 
-	color:#fff;
-	display: inline-block;"
 }
 
-
+.portfolio-1 .my-div {
+  background-color: #DDCA4D;
+}
 
 
 /* ==========================================================================
