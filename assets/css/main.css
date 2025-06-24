@@ -505,8 +505,8 @@ textarea#message{
 	padding:20px;
 	margin-bottom:5px; 
 	border-radius:15px;
-	margin-right:5px; 
-	margin-left:5px; 
+	margin-right:1px; 
+	margin-left:1px; 
 	color:#fff;
 	display: inline-block;"
 }
