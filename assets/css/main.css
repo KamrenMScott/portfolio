@@ -500,11 +500,10 @@ textarea#message{
 
 .portnav {
 	background-color:#2d2d2d;
-	padding:20px;
+	padding:15px 5px;
 	margin-bottom:5px; 
 	border-radius:15px;
-	margin-right:1px; 
-	margin-left:1px; 
+	margin-right:2px; 
 	color:#fff;
 	display: inline-block;
 }
