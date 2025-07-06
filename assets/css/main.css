@@ -155,9 +155,12 @@ a:after {
    ========================================================================== */
 
 #headerwrap {
+	background: url(../img/header-bg2.jpg) no-repeat center top;
 	margin-top: -10px;
 	padding-top:20px;
 	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
 	min-height: 500px;
 	width: 100%;
 	background-color:#4c98b8;
