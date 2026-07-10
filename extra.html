@@ -39,6 +39,93 @@
 	
 	<script src="assets/js/Chart.js"></script>
 
+
+
+<style>
+
+.accordion {
+    margin: 0;
+	width:100%;
+
+}
+.accordion label {
+    padding: 15px;
+    position: relative;
+    display: block;
+    cursor: pointer;
+    line-height: 33px;
+    font-size: 20px;
+    background: #EFEFEF;
+    border: 0px solid #CCC;
+	border-radius:10px;
+	color: #585858;
+}
+.accordion label:hover {
+    background: #DDCA4D;
+	color:#fff;
+}
+.accordion input + label {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.accordion input:checked + label,
+.accordion input:checked + label:hover {
+    background: #4c98b8;
+    color: #fff;
+    box-shadow:
+        0px 0px 0px 1px rgba(155,155,155,0.3),
+        0px 2px 2px rgba(0,0,0,0.1);
+}
+.accordion input {
+    display: none;
+}
+.accordion .article {
+    background: #fff;
+	border-radius:10px;
+    overflow: hidden;
+    height: 0px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.accordion .article p {
+    color: #505050;
+    font-size: 16px;
+	margin: 2%;
+}
+.accordion input:checked ~ .article {
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.accordion input:checked ~ .article.ac-small {
+    height: 100%;
+}
+.accordion input:checked ~ .article.ac-medium {
+    height: 100%;
+}
+.accordion input:checked ~ .article.ac-large {
+    height: 100%;
+}
+.accordion input:checked ~ .article.ac-extralarge {
+    height: 100%;
+}
+
+</style>
+
+
+
+
+
+
+	  
 </head>
 
   <body>
@@ -336,7 +423,7 @@
         </div>
 
         <div class="col-lg-8">
-<p>I earned my first professional byline at 16, launching my career in journalism early. I interned at my community’s weekly newspaper, where I reported news and feature stories, and later served as editor-in-chief of the student newspapers at both Tyler Junior College and the University of Texas at Tyler. I also completed a copy desk internship at Tyler’s daily newspaper, gaining hands-on experience in editing and production. I graduated with a B.S. in Journalism from the University of Texas at Tyler.</p>     
+<p>I earned my first professional byline at 16. I interned at my community’s weekly newspaper, where I reported news and feature stories, and later served as editor-in-chief of the student newspapers at both Tyler Junior College and the University of Texas at Tyler. I also completed a copy desk internship at Tyler’s daily newspaper, gaining hands-on experience in editing and production. I graduated with a B.S. in Journalism from the University of Texas at Tyler.</p>     
         </div>
     </div>
 </div>
